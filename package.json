@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "homepage": "https://Yun4g.github.io/repository-name/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
