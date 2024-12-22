@@ -23,13 +23,17 @@
     align-items: center;
     gap: 30px;
   
-    width: 80%;
+    width: 70%;
     font-size: 14px;
     font-weight: bold;
   }
   
   .logo {
-   margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2rem;
     padding: 1em;
   }
   
@@ -64,7 +68,7 @@
     justify-content: end;
     padding-right: 50px;
     gap: 30px;
-    width: 20%;
+    width: 30%;
     font-size: 15px;
     font-weight: bold;
   }
@@ -117,3 +121,48 @@
   .chevron{
     margin-left: 5px;
   }
+
+
+
+  
+@media screen and (max-width: 1203px) {
+      
+  .linkAction{
+    display: none;
+  }     
+  
+  .Hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px ;
+    height: 2rem;
+    width: 2.4rem;
+  }
+
+  .line1{
+    width: 100%;
+    background-color: black;
+    height: 3px;
+ }
+
+ 
+ .line2{
+  width: 70%;
+  background-color: black;
+  height: 3px;
+}
+
+
+.line3{
+  width: 50%;
+  background-color: black;
+  height: 3px;
+}
+}
+
+@media screen and (max-width: 787px) {
+  .signIn{
+      display: none;
+  }
+}

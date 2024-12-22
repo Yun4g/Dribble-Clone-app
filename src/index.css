@@ -20,6 +20,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 a {
   font-weight: 600;
   color: inherit;
@@ -31,6 +37,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {

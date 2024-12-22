@@ -8,6 +8,12 @@ function Header (){
 <nav>
   <div className='firstdiv'>
     <div className='logo'>
+     
+     <button className='Hamburger'>
+        <div className='line1'></div>
+        <div className='line2'></div>
+        <div className='line3'></div>
+     </button>
 
     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 210 59" fill="none">
      <title>Dribbble: the community for graphic design</title>
@@ -37,7 +43,7 @@ function Header (){
   </div>
 
   <div className='secondDiv'>
-     <a href="">sign in</a>
+     <a href="" className='signIn'>sign in</a>
 
      <a href="">Log in</a>
   </div>

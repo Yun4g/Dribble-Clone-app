@@ -31,14 +31,14 @@ function HeroSection() {
             </div>
             <div className='linksPage'>
                 <p>Trending searches</p>
-
+                 <div className='Pages'>
                 <a href="">landing page</a>
                 <a href="">e-commerce</a>
                 <a href="">moble app</a>
                 <a href="">logo design</a>
                 <a href="">dashboard</a>
                 <a href="">icons</a>
-
+                </div>
             </div>
             </div>
 

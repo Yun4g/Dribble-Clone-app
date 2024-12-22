@@ -52,7 +52,7 @@ section .container{
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
-    max-width: 630px;
+    max-width: 559px;
     color: #0d0c22;
 }
 
@@ -140,4 +140,8 @@ section .container{
 
 .linksPage a:hover{
     background-color:  #f8f8fe;
+}
+
+.Pages{
+    display: flex;
 }

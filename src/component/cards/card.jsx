@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 function Card({ CardsDetails }) {
   return (
     <div className='grid'>
-      {CardsDetails.map((data, index) => (
+      {
+      CardsDetails.map((data, index) => (
         <CardDetails CardDetails={data} key={index} />
       ))}
     </div>
